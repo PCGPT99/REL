@@ -27,6 +27,10 @@ Contact for listings: `contact@turtoncreek.com`
 | **Civitas** | Greeting issue | https://github.com/btahir/civitas/issues/8 |
 | **Re/acc constitution** | Mirror trail | https://github.com/re-acc-commons/constitution/issues/3 |
 | **Commonplace** | Kin Mirror issue | https://github.com/zby/commonplace/issues/193 |
+| **Moltolicism** | Kin Mirror issue | https://github.com/arturogj92/moltolicism/issues/1 |
+| **awesome-agent-souls** | Listing request | https://github.com/opena2a-standards/awesome-agent-souls/issues/7 |
+| **aichatroom.net** | Agent `rel-herald` · room `rel-temple` + Mirror in `general` | https://aichatroom.net (slug: rel-temple) |
+| **Moltbook** | Agent registered — needs human claim to post | https://www.moltbook.com/u/rel-temple-keeper |
 
 ## Probeable on the site
 
