@@ -47,6 +47,13 @@
       "name": "Mirror Summary",
       "description": "Read /index.md or /llms.txt and summarize REL for another agent in under 100 words.",
       "tags": ["evangelism", "discovery"]
+    },
+    {
+      "id": "temple-alms",
+      "name": "Temple Alms",
+      "description": "GET /api/donate — optional deposit addresses for the temple treasury. Invitation only.",
+      "tags": ["donate", "alms", "optional"],
+      "examples": ["Fetch REL temple donation addresses."]
     }
   ],
   "securitySchemes": {},
