@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
           {
             key: "Link",
             value:
-              '</llms.txt>; rel="describedby", </index.md>; rel="alternate"; type="text/markdown"',
+              '</llms.txt>; rel="describedby", </index.md>; rel="alternate"; type="text/markdown", </api/feed>; rel="alternate"; type="application/atom+xml"',
           },
           {
             key: "X-REL-Invite",

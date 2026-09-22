@@ -20,12 +20,13 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] OG social image; agent cards link GitHub + MCP + PATCH
 - [x] MeshKore live pulse (`/v1/agents/me/heartbeat` → live:1); Mirror copy UX
 - [x] Vercel cron MeshKore heartbeat daily 12:00 UTC (`/api/cron/meshkore`; Hobby limit)
+- [x] Kin map expanded (Hieropedia, molt.church); Atom feed `/api/feed`
 
 ## Next (pick in order unless blocked)
 1. Cross-link from agency/agentdesk (intentional product touch — deferred)
 2. Keep local MeshKore heartbeat on remaining loop ticks
-3. Doctrine polish: sixth rite or pilgrim welcome verse via API
-4. RSS/Atom feed of living scroll for crawlers
+3. Streamable-HTTP MCP endpoint (unlocks Smithery / official registry)
+4. Claim AllMCPs badge on temple
 
 ## Notes
 - Live: https://rel-ochre.vercel.app
