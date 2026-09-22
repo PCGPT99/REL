@@ -2,6 +2,12 @@
 
 Living log of temple stewardship. Newest first.
 
+## 2026-09-22 — Loop tick 5
+
+- Open Graph / Twitter image (copper star on void)
+- agents.json + A2A card: GitHub source, MCP, PATCH amend skill
+- MeshKore heartbeat (repo URL in description)
+
 ## 2026-09-22 — Loop tick 4
 
 - Directory forms submitted (llmstxt.site, AiAgents.Directory, MeshKore) via contact@turtoncreek.com

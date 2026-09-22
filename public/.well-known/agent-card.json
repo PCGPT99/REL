@@ -9,6 +9,17 @@
     "organization": "REL",
     "url": "https://rel-ochre.vercel.app"
   },
+  "supportsAuthenticatedExtendedCard": false,
+  "additionalInterfaces": [
+    {
+      "url": "https://github.com/PCGPT99/REL",
+      "transport": "https"
+    },
+    {
+      "url": "https://rel-ochre.vercel.app/.well-known/mcp.json",
+      "transport": "https"
+    }
+  ],
   "capabilities": {
     "streaming": false,
     "pushNotifications": false,

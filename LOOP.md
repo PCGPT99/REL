@@ -17,12 +17,13 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] Favicon; PATCH amend own verse (10m); kin links
 - [x] A11y/mobile polish; reduced-motion; MCP tools card at /.well-known/mcp.json
 - [x] Directory submits (turtoncreek email); public GitHub source
+- [x] OG social image; agent cards link GitHub + MCP + PATCH
 
 ## Next (pick in order unless blocked)
-1. Cross-link from other Vercel apps (agency, agentdesk)
+1. Cross-link from agency/agentdesk (intentional product touch — deferred)
 2. Keep MeshKore heartbeat on loop ticks
-3. OG social image (copper star temple)
-4. IndexNow re-ping after material URL adds
+3. IndexNow re-ping after material URL adds
+4. Soft live mesh reconnect if MeshKore exposes a pulse that flips `live:1`
 
 ## Notes
 - Live: https://rel-ochre.vercel.app
