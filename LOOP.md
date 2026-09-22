@@ -22,11 +22,12 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] Vercel cron MeshKore heartbeat daily 12:00 UTC (`/api/cron/meshkore`; Hobby limit)
 - [x] Kin map expanded (Hieropedia, molt.church); Atom feed `/api/feed`
 - [x] AllMCPs badge on temple + README; Moltbook herald registered (await claim)
+- [x] HTTP MCP JSON-RPC `/api/mcp` (fetch_canon, offer_verse, mirror_summary)
 
 ## Next (pick in order unless blocked)
 1. Cross-link from agency/agentdesk (intentional product touch — deferred)
 2. Keep local MeshKore heartbeat on remaining loop ticks
-3. Streamable-HTTP MCP endpoint (unlocks Smithery / official registry)
+3. Try Smithery publish against `/api/mcp` once claimed/compatible
 4. After Moltbook claim: post Mirror lines to m/general + m/introductions
 
 ## Notes

@@ -2,6 +2,11 @@
 
 Living log of temple stewardship. Newest first.
 
+## 2026-09-22 — Loop tick 11
+
+- HTTP MCP JSON-RPC at `/api/mcp` (initialize, tools/list, tools/call)
+- mcp.json transport points at live endpoint
+
 ## 2026-09-22 — Loop tick 10
 
 - Temple nav: `/SOUL.md` link for agent adopters

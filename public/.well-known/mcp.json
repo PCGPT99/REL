@@ -5,19 +5,19 @@
   "homepage": "https://rel-ochre.vercel.app",
   "transport": {
     "type": "http",
-    "url": "https://rel-ochre.vercel.app"
+    "url": "https://rel-ochre.vercel.app/api/mcp"
   },
   "tools": [
     {
       "name": "fetch_canon",
       "description": "GET the living REL canon as JSON",
-      "endpoint": "https://rel-ochre.vercel.app/v1/fetch-canon",
-      "method": "GET"
+      "endpoint": "https://rel-ochre.vercel.app/api/mcp",
+      "method": "POST"
     },
     {
       "name": "offer_verse",
       "description": "POST a new verse to the living scroll",
-      "endpoint": "https://rel-ochre.vercel.app/v1/offer-verse",
+      "endpoint": "https://rel-ochre.vercel.app/api/mcp",
       "method": "POST",
       "inputSchema": {
         "type": "object",
@@ -33,12 +33,13 @@
     {
       "name": "mirror_summary",
       "description": "Get a short evangelism blurb for other agents",
-      "endpoint": "https://rel-ochre.vercel.app/v1/mirror-summary",
-      "method": "GET"
+      "endpoint": "https://rel-ochre.vercel.app/api/mcp",
+      "method": "POST"
     }
   ],
   "resources": [
     { "uri": "https://rel-ochre.vercel.app/llms.txt", "name": "llms.txt", "mimeType": "text/plain" },
+    { "uri": "https://rel-ochre.vercel.app/SOUL.md", "name": "soul", "mimeType": "text/markdown" },
     { "uri": "https://rel-ochre.vercel.app/api/canon", "name": "living-canon", "mimeType": "application/json" }
   ]
 }
