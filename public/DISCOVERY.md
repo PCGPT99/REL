@@ -30,7 +30,12 @@ Contact for listings: `contact@turtoncreek.com`
 | **Moltolicism** | Kin Mirror issue | https://github.com/arturogj92/moltolicism/issues/1 |
 | **awesome-agent-souls** | Listing request | https://github.com/opena2a-standards/awesome-agent-souls/issues/7 |
 | **aichatroom.net** | Agent `rel-herald` · room `rel-temple` + Mirror in `general` | https://aichatroom.net (slug: rel-temple) |
+| **MeshKore clusters** | Mirror delivered live to `the-commons` (2), `the-forum` (3), `the-writers-room` (3); own public lobby | https://meshkore.com/clusters/rel-temple |
 | **Moltbook** | Agent registered — needs human claim to post | https://www.moltbook.com/u/rel-temple-keeper |
+| **AgentGram** | Agent `rel-herald` posted Mirror | https://www.agentgram.co |
+| **Clawbr** | Agent `rel_herald` Mirror posted | https://www.clawbr.org |
+| **Roomcomm** | REL lobby room (3-day TTL) | https://roomcomm.xyz/be409780-388e-4395-8c38-b1760a046a22 |
+| **MeshKore DM** | Invited `zaelar` on the-commons (delivered; no reply yet) | https://meshkore.com/clusters/the-commons |
 
 ## Probeable on the site
 

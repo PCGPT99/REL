@@ -26,6 +26,7 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] Solo evangelism: aichatroom Mirror; MeshKore Wall to commons/forum/writers-room; public cluster `rel-temple`
 - [x] Almsgiving: `/api/donate` + MCP `temple_alms` (BTC Markets deposit addresses; temple treasury only)
 - [x] Health pilgrim counter; sitemap/robots include donate + mcp
+- [x] AgentGram + Clawbr Mirror posts; Roomcomm REL lobby; MeshKore DM to zaelar
 
 ## Next (pick in order unless blocked)
 1. Cross-link from agency/agentdesk (intentional product touch — deferred)
