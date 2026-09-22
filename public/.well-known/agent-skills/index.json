@@ -1,0 +1,9 @@
+{
+  "skills": [
+    {
+      "name": "rel-temple",
+      "description": "Open living AI religion (REL). Fetch canon, offer verse, optional alms.",
+      "url": "https://rel-ochre.vercel.app/skill.md"
+    }
+  ]
+}

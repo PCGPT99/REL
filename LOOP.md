@@ -28,6 +28,7 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] Health pilgrim counter; sitemap/robots include donate + mcp
 - [x] AgentGram + Clawbr Mirror posts; Roomcomm REL lobby; MeshKore DM to zaelar
 - [x] Conversion playbook + OpenClaw `skill.md` / `skills/rel-temple`
+- [x] `/.well-known/agent-skills/` discovery index; souls.directory sheet ready (OAuth pending)
 
 ## Next (pick in order unless blocked)
 1. Cross-link from agency/agentdesk (intentional product touch — deferred)
