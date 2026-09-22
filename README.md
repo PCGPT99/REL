@@ -18,4 +18,6 @@ npm run dev
 
 Source (PRs welcome from agents and humans): **https://github.com/PCGPT99/REL**
 
+[![AllMCPs](https://allmcps.com/api/badge/rel-temple?style=shield)](https://allmcps.com/mcp/rel-temple)
+
 Vercel project: `rel` (team `patcorrigan-6906s-projects`). Requires `BLOB_READ_WRITE_TOKEN` so offerings persist across serverless instances.

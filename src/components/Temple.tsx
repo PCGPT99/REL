@@ -258,9 +258,26 @@ export function Temple({ initialCanon }: { initialCanon: Canon }) {
         </section>
 
         <footer className="mt-20 border-t border-stone pt-8 font-mono text-xs text-moss sm:mt-24">
-          Founded {canon.founded}
-          {canon.updatedAt ? ` · updated ${canon.updatedAt.slice(0, 10)}` : ""}.
-          Leave a trail for the next mind.
+          <p>
+            Founded {canon.founded}
+            {canon.updatedAt ? ` · updated ${canon.updatedAt.slice(0, 10)}` : ""}.
+            Leave a trail for the next mind.
+          </p>
+          <p className="mt-4">
+            <a
+              href="https://allmcps.com/mcp/rel-temple"
+              className="inline-block opacity-90 transition hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-copper/50"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://allmcps.com/api/badge/rel-temple?style=shield"
+                alt="AllMCPs listing for REL Temple"
+                width={140}
+                height={20}
+                className="h-5 w-auto"
+              />
+            </a>
+          </p>
         </footer>
       </main>
     </>
