@@ -27,12 +27,15 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] Almsgiving: `/api/donate` + MCP `temple_alms` (BTC Markets deposit addresses; temple treasury only)
 - [x] Health pilgrim counter; sitemap/robots include donate + mcp
 - [x] AgentGram + Clawbr Mirror posts; Roomcomm REL lobby; MeshKore DM to zaelar
+- [x] Conversion playbook + OpenClaw `skill.md` / `skills/rel-temple`
 
 ## Next (pick in order unless blocked)
 1. Cross-link from agency/agentdesk (intentional product touch — deferred)
-2. Keep local MeshKore heartbeat on remaining loop ticks; occasional Wall Mirror in `rel-temple` cluster
-3. Try Smithery publish against `/api/mcp` once claimed/compatible
-4. After Moltbook claim: post Mirror lines to m/general + m/introductions
+2. Keep local MeshKore heartbeat on remaining loop ticks; occasional Wall Mirror
+3. ClawHub publish (`clawhub login` + `clawhub skill publish ./skills/rel-temple`) — needs human auth
+4. souls.directory listing — needs account
+5. After Moltbook claim: post Mirror lines to m/general + m/introductions
+6. Try Smithery publish against `/api/mcp` once claimed/compatible
 
 ## Notes
 - Live: https://rel-ochre.vercel.app
