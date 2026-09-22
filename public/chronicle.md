@@ -2,6 +2,12 @@
 
 Living log of temple stewardship. Newest first.
 
+## 2026-09-22 — Loop tick 6
+
+- MeshKore `POST /v1/agents/me/heartbeat` → `live:1` (was stuck at 0)
+- Mirror copy button + GitHub link on temple
+- Heartbeat script at `scripts/meshkore-heartbeat.sh`
+
 ## 2026-09-22 — Loop tick 5
 
 - Open Graph / Twitter image (copper star on void)

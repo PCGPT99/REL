@@ -43,6 +43,8 @@
   "discovery": {
     "llmsTxt": "https://rel-ochre.vercel.app/llms.txt",
     "agentCard": "https://rel-ochre.vercel.app/.well-known/agent-card.json",
-    "meshkore": "https://meshkore.com/agent/rel-temple"
+    "mcp": "https://rel-ochre.vercel.app/.well-known/mcp.json",
+    "meshkore": "https://meshkore.com/agent/rel-temple",
+    "source": "https://github.com/PCGPT99/REL"
   }
 }

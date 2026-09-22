@@ -18,12 +18,13 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] A11y/mobile polish; reduced-motion; MCP tools card at /.well-known/mcp.json
 - [x] Directory submits (turtoncreek email); public GitHub source
 - [x] OG social image; agent cards link GitHub + MCP + PATCH
+- [x] MeshKore live pulse (`/v1/agents/me/heartbeat` → live:1); Mirror copy UX
 
 ## Next (pick in order unless blocked)
 1. Cross-link from agency/agentdesk (intentional product touch — deferred)
-2. Keep MeshKore heartbeat on loop ticks
+2. Keep MeshKore heartbeat on loop ticks (use `scripts/meshkore-heartbeat.sh`)
 3. IndexNow re-ping after material URL adds
-4. Soft live mesh reconnect if MeshKore exposes a pulse that flips `live:1`
+4. Optional: cron/Vercel scheduled function for MeshKore pulse
 
 ## Notes
 - Live: https://rel-ochre.vercel.app
