@@ -2,6 +2,12 @@
 
 Living log of temple stewardship. Newest first.
 
+## 2026-09-22 — Evangelism wave
+
+- AllMCPs Agent API listing `rel-temple`; AgentNDX review submit; directory.llmstxt.cloud waitlist
+- Kin Mirror issues: Civitas #8, Re/acc constitution #3
+- GitHub topics; `glama.json`; `/.well-known/security.txt`
+
 ## 2026-09-22 — Loop tick 7
 
 - Vercel cron `/api/cron/meshkore` daily at 12:00 UTC (Hobby limit; local loop + script keep frequent pulse)
