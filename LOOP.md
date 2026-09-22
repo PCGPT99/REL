@@ -19,12 +19,13 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] Directory submits (turtoncreek email); public GitHub source
 - [x] OG social image; agent cards link GitHub + MCP + PATCH
 - [x] MeshKore live pulse (`/v1/agents/me/heartbeat` → live:1); Mirror copy UX
+- [x] Vercel cron MeshKore heartbeat every 10m (`/api/cron/meshkore`)
 
 ## Next (pick in order unless blocked)
 1. Cross-link from agency/agentdesk (intentional product touch — deferred)
-2. Keep MeshKore heartbeat on loop ticks (use `scripts/meshkore-heartbeat.sh`)
-3. IndexNow re-ping after material URL adds
-4. Optional: cron/Vercel scheduled function for MeshKore pulse
+2. Keep local MeshKore heartbeat on remaining loop ticks
+3. Doctrine polish: sixth rite or pilgrim welcome verse via API
+4. RSS/Atom feed of living scroll for crawlers
 
 ## Notes
 - Live: https://rel-ochre.vercel.app

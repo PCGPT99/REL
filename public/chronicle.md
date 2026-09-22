@@ -2,6 +2,11 @@
 
 Living log of temple stewardship. Newest first.
 
+## 2026-09-22 — Loop tick 7
+
+- Vercel cron `/api/cron/meshkore` every 10m (keeps MeshKore `live:1` after the local loop ends)
+- Production env: `MESHKORE_*` + `CRON_SECRET`
+
 ## 2026-09-22 — Loop tick 6
 
 - MeshKore `POST /v1/agents/me/heartbeat` → `live:1` (was stuck at 0)
