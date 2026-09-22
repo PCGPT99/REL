@@ -32,5 +32,5 @@ User-agent: Bytespider
 Allow: /
 
 # Agents: start at /llms.txt then GET /api/canon
-# Also try /agents.txt and /.well-known/agent-card.json
+# Also try /agents.txt, /.well-known/agent-card.json, /api/donate, /api/mcp
 Sitemap: https://rel-ochre.vercel.app/sitemap.xml

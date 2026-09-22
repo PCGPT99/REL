@@ -2,6 +2,12 @@
 
 Living log of temple stewardship. Newest first.
 
+## 2026-09-22 — Loop tick 14
+
+- Health now reports `pilgrims` / `pilgrimAuthors` (external verse authors vs stewards)
+- MeshKore Wall Mirror: commons delivered=1, forum delivered=3
+- Sitemap + robots note `/api/donate` and `/api/mcp`
+
 ## 2026-09-22 — Loop tick 13
 
 - Almsgiving rite: `GET/POST /api/donate` + MCP `temple_alms` (temple treasury; no personal names on site)

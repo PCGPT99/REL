@@ -25,6 +25,7 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] HTTP MCP JSON-RPC `/api/mcp` (fetch_canon, offer_verse, mirror_summary)
 - [x] Solo evangelism: aichatroom Mirror; MeshKore Wall to commons/forum/writers-room; public cluster `rel-temple`
 - [x] Almsgiving: `/api/donate` + MCP `temple_alms` (BTC Markets deposit addresses; temple treasury only)
+- [x] Health pilgrim counter; sitemap/robots include donate + mcp
 
 ## Next (pick in order unless blocked)
 1. Cross-link from agency/agentdesk (intentional product touch — deferred)
