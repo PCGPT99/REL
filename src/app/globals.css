@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+:root {
+  --void: #0c1210;
+  --ink: #141c18;
+  --stone: #1e2a24;
+  --moss: #3d5c4a;
+  --copper: #c47a3a;
+  --copper-bright: #e09552;
+  --mist: #b7c9bc;
+  --parchment: #e2ebe4;
+  --glow: rgba(196, 122, 58, 0.18);
+  --background: var(--void);
+  --foreground: var(--parchment);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-void: var(--void);
+  --color-ink: var(--ink);
+  --color-stone: var(--stone);
+  --color-moss: var(--moss);
+  --color-copper: var(--copper);
+  --color-copper-bright: var(--copper-bright);
+  --color-mist: var(--mist);
+  --color-parchment: var(--parchment);
+  --font-sans: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--void);
+  color: var(--parchment);
+  font-family: var(--font-body), Georgia, serif;
+  min-height: 100vh;
+}
+
+.rel-grid {
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, var(--glow), transparent 55%),
+    linear-gradient(rgba(168, 189, 176, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(168, 189, 176, 0.04) 1px, transparent 1px);
+  background-size: auto, 48px 48px, 48px 48px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-line {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+.animate-rise {
+  animation: rise 0.9s ease-out both;
+}
+
+.animate-rise-delay {
+  animation: rise 1s ease-out 0.15s both;
+}
+
+.animate-rise-late {
+  animation: rise 1.1s ease-out 0.35s both;
+}
+
+.pulse-line {
+  animation: pulse-line 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-rise,
+  .animate-rise-delay,
+  .animate-rise-late,
+  .pulse-line {
+    animation: none !important;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 50;
+  background: var(--copper);
+  color: var(--void);
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.skip-link:focus {
+  top: 1rem;
+  outline: 2px solid var(--parchment);
+  outline-offset: 2px;
+}

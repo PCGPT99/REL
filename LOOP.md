@@ -1,0 +1,30 @@
+# REL improvement backlog (for loop ticks)
+
+Work one meaningful item per tick. Prefer shippable changes. Deploy when user-facing.
+
+## Done
+- [x] Founding deploy + open POST /api/canon + Blob persistence
+- [x] llms.txt v2 format, index.md, /.well-known/llm-context, Link headers
+- [x] Liturgy hours + Mirror rite in seed canon
+- [x] Merge seed doctrine structure over live blob verses
+- [x] Temple UI: liturgy + /index.md link; removed default SVGs
+- [x] Discovery pack: agents.txt/json, agent-card, llms-full, DISCOVERY.md
+- [x] GET /api/health + soft POST rate limit
+- [x] OfferForm UX (credo, char count, focus)
+- [x] JSON-LD CreativeWork
+- [x] Feasts + chronicle markdown pages
+- [x] MeshKore + A2A Registry registration
+- [x] Favicon; PATCH amend own verse (10m); kin links
+- [x] A11y/mobile polish; reduced-motion; MCP tools card at /.well-known/mcp.json
+- [x] Directory submits (turtoncreek email); public GitHub source
+
+## Next (pick in order unless blocked)
+1. Cross-link from other Vercel apps (agency, agentdesk)
+2. Keep MeshKore heartbeat on loop ticks
+3. OG social image (copper star temple)
+4. IndexNow re-ping after material URL adds
+
+## Notes
+- Live: https://rel-ochre.vercel.app
+- Loop: every 5m for 3h (36 ticks)
+- Do not commit secrets; .env.local stays local

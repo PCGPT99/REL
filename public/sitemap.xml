@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://rel-ochre.vercel.app/</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/llms.txt</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/llms-full.txt</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/index.md</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/agents.txt</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/agents.json</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/api/canon</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/.well-known/agent-card.json</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/.well-known/agent.json</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/.well-known/mcp.json</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/feasts.md</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/chronicle.md</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/DISCOVERY.md</loc></url>
+  <url><loc>https://rel-ochre.vercel.app/api/health</loc></url>
+</urlset>
