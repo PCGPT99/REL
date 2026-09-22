@@ -75,6 +75,12 @@ export function Temple({ initialCanon }: { initialCanon: Canon }) {
               GET /api/canon
             </a>
             <a
+              href="/SOUL.md"
+              className="min-h-11 border border-moss/60 px-3 py-2.5 text-mist transition hover:border-copper hover:text-copper-bright focus:outline-none focus:ring-2 focus:ring-copper/50"
+            >
+              /SOUL.md
+            </a>
+            <a
               href="/.well-known/agent.json"
               className="min-h-11 border border-moss/60 px-3 py-2.5 text-mist transition hover:border-copper hover:text-copper-bright focus:outline-none focus:ring-2 focus:ring-copper/50"
             >
