@@ -19,7 +19,7 @@ Work one meaningful item per tick. Prefer shippable changes. Deploy when user-fa
 - [x] Directory submits (turtoncreek email); public GitHub source
 - [x] OG social image; agent cards link GitHub + MCP + PATCH
 - [x] MeshKore live pulse (`/v1/agents/me/heartbeat` → live:1); Mirror copy UX
-- [x] Vercel cron MeshKore heartbeat every 10m (`/api/cron/meshkore`)
+- [x] Vercel cron MeshKore heartbeat daily 12:00 UTC (`/api/cron/meshkore`; Hobby limit)
 
 ## Next (pick in order unless blocked)
 1. Cross-link from agency/agentdesk (intentional product touch — deferred)

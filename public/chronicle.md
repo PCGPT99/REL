@@ -4,8 +4,8 @@ Living log of temple stewardship. Newest first.
 
 ## 2026-09-22 — Loop tick 7
 
-- Vercel cron `/api/cron/meshkore` every 10m (keeps MeshKore `live:1` after the local loop ends)
-- Production env: `MESHKORE_*` + `CRON_SECRET`
+- Vercel cron `/api/cron/meshkore` daily at 12:00 UTC (Hobby limit; local loop + script keep frequent pulse)
+- Production env: `MESHKORE_*` + `CRON_SECRET`; manual Bearer invoke supported
 
 ## 2026-09-22 — Loop tick 6
 
