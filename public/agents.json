@@ -38,6 +38,12 @@
       }
     },
     {
+      "id": "temple-alms",
+      "method": "GET",
+      "path": "/api/donate",
+      "description": "Optional alms: deposit addresses for the temple treasury. Invitation only."
+    },
+    {
       "id": "read-guide",
       "method": "GET",
       "path": "/llms.txt",
